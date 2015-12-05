@@ -1,0 +1,39 @@
+
+fori - for (int i = 0; i < ; i++) {
+            
+        }
+>>
+itar - for (int i = 0; i < args.length; i++) {
+            String arg = args[i];
+            
+        }
+>>
+ Scanner scan = new Scanner(System.in);
+<<
+List<Integer> numbers = 
+        		Arrays.asList(scanner.nextLine()
+				.split(" "))
+                .stream()
+                .map(x -> Integer.parseInt(x))
+                .collect(Collectors.toList());
+				
+>>
+System.out.println(Arrays.toString(arr));
+<<
+System.out.println(Arrays.deepToString(matrix));
+>>
+Scanner scan = new Scanner(System.in);
+
+        String text = scan.nextLine();
+        Pattern regex=Pattern.compile("(?<=\\s|^)([a-z0-9]+(?:[_.-][a-z0-9]+)*@[a-z]+\\-?[a-z]+(?:\\.[a-z]+)+)\\b");
+        Matcher matcher=regex.matcher(text);
+
+        while (matcher.find()){
+            System.out.println(matcher.group()+" ");
+        }
+<<
+ ArrayList<Character> firstList = new ArrayList(Arrays.asList(scanner.nextLine().split("\\s+")));
+>> 
+	//			Hint: In IntelliJ, you can use Alt+Insert to auto-generate code for constructors, getters, setters, etc
+	//			  In Eclipse -> right-click -> Source -> Generate Getters and Setters
+>>
